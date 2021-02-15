@@ -1,0 +1,20 @@
+
+Name: John Smith, Email:john.smith@email.com
+, Subject: Job offer.
+, Hey Tareq!
+Come join us!
+
+Name: John Smith
+ Email:john@email.com
+ Subject: Come join us, Tareq!
+ helllo!!
+
+Name:  John Smith
+Email:   john@email.com
+Subject: Come join us, Tareq!
+Message: helllo!!
+
+Name:    John Smith
+Email:   john@email.com
+Subject: Come join us, Tareq!
+Message: helllo!!
