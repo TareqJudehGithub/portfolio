@@ -60,14 +60,17 @@ def write_to_csv(data):
 def submit_form():
     """Flask requests"""
     if request.method == "POST":
-        data = request.form.to_dict()
-        name = request.form["username"]
+        try:
+            data = request.form.to_dict()
+            name = request.form["username"]
 
-        write_to_csv(data)
+            write_to_csv(data)
 
-        # return redirect("/thankyou.html")
-        return render_template("thankyou.html", name=name)
+            # return redirect("/thankyou.html")
+            return render_template("thankyou.html", name=name)
 
+        except:
+            return "Did not save to database."
     else:
         return "Something went wrong."
 
